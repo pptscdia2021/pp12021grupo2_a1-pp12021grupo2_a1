@@ -4,6 +4,5 @@
 
 - María Gutiérrez
 - Brenda Hidalgo
-- Eric Lerch
 - Raúl Lobo
 - Eleana Rinaudo
