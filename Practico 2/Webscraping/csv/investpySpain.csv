@@ -1,0 +1,78 @@
+,country,name,last,high,low,change,change_percentage,currency
+0,spain,IBEX 35,8997.0,9016.5,8944.1,+72.00,+0.81%,EUR
+1,spain,FTSE Latibex,2100.7,2100.7,2051.0,+48.70,+2.37%,EUR
+2,spain,General Madrid,887.86,890.09,883.39,+6.28,+0.71%,EUR
+3,spain,IBEX Medium Cap,13678.8,13701.7,13621.4,+75.60,+0.56%,EUR
+4,spain,IBEX Small Cap,8251.6,8257.7,8177.0,+85.70,+1.05%,EUR
+5,spain,VIBEX,14.4,14.4,14.4,-0.50,-3.36%,EUR
+6,spain,BCN Banks,731.2,738.48,725.73,+11.85,+1.65%,EUR
+7,spain,BCN Cement & Construction,1296.92,1299.93,1286.11,+8.18,+0.63%,EUR
+8,spain,BCN Chemicals,577.33,583.52,574.26,0.00,0.00%,EUR
+9,spain,BCN Commerce & Finance,136.49,137.25,133.17,+4.04,+3.05%,EUR
+10,spain,BCN Electric,1998.8,2024.89,1993.06,-16.76,-0.83%,EUR
+11,spain,BCN Food Agriculture & Forest,942.5,948.39,933.13,0.00,0.00%,EUR
+12,spain,BCN Metallurgical,715.52,716.99,707.38,+12.41,+1.77%,EUR
+13,spain,BCN Services,1776.01,1806.67,1762.75,-27.34,-1.52%,EUR
+14,spain,BCN Textiles,1309.09,1311.1,1293.42,+18.64,+1.44%,EUR
+15,spain,IBEX 35 Banks,517.2,522.3,511.5,+9.80,+1.93%,EUR
+16,spain,IBEX 35 Construction,1511.4,1513.5,1486.9,+29.80,+2.01%,EUR
+17,spain,IBEX 35 Energy,1279.5,1299.2,1274.5,-14.70,-1.14%,EUR
+18,spain,Madrid Basic Materials Industry and Construction,1447.67,1449.86,1429.97,+23.72,+1.67%,EUR
+19,spain,Madrid Consumer Goods,4864.5,4872.19,4790.12,+82.90,+1.73%,EUR
+20,spain,Madrid Consumer Services,995.83,1000.77,980.82,+21.38,+2.19%,EUR
+21,spain,Madrid Financial Services & Real Estate,434.53,438.8,430.09,+7.92,+1.86%,EUR
+22,spain,Madrid Petrol and Power,1531.38,1556.15,1525.43,-18.66,-1.20%,EUR
+23,spain,Madrid Technology and Telecommunications,791.81,798.57,785.56,-4.02,-0.51%,EUR
+24,spain,BCN 4 Communication Media & Advertising,585.87,598.74,585.87,0.00,0.00%,EUR
+25,spain,BCN 5 Bancos,596.1,612.74,594.24,0.00,0.00%,EUR
+26,spain,BCN 5 Comerce Leisure and Tourism,605.05,617.32,604.65,0.00,0.00%,EUR
+27,spain,BCN 5 Construction,827.6,841.96,827.6,0.00,0.00%,EUR
+28,spain,BCN 5 Energy,939.35,947.9,928.29,0.00,0.00%,EUR
+29,spain,BCN 5 Feeding and Tobacco,1095.75,1114.84,1095.62,0.00,0.00%,EUR
+30,spain,BCN 5 Metals,766.29,776.08,764.54,0.00,0.00%,EUR
+31,spain,BCN 5 Property,668.12,690.21,664.13,0.00,0.00%,EUR
+32,spain,BCN 5 Services,790.34,797.05,786.13,0.00,0.00%,EUR
+33,spain,BCN 5 Technology,813.96,817.89,809.42,0.00,0.00%,EUR
+34,spain,BCN 5 Textiles,800.48,812.47,799.79,0.00,0.00%,EUR
+35,spain,BCN Cataluna,23219.39,23339.11,23104.17,+22.93,+0.10%,EUR
+36,spain,BCN Global 100,699.46,702.08,696.81,+4.61,+0.66%,EUR
+37,spain,BCN Mid 50,25714.21,25738.6,25576.05,+223.21,+0.88%,EUR
+38,spain,BCN PER 30,16854.02,16884.2,16785.25,+81.71,+0.49%,EUR
+39,spain,BCN Profit 30,10528.09,10579.89,10495.24,+34.43,+0.33%,EUR
+40,spain,BCN ROE 30,16968.19,17003.9,16867.43,+109.26,+0.65%,EUR
+41,spain,BCN TOP 5,780.05,789.83,776.88,0.00,0.00%,EUR
+42,spain,BCN Top Euro,777.81,786.64,776.19,0.00,0.00%,EUR
+43,spain,Bilbao 2000,1426.3,1428.42,1417.52,+10.82,+0.76%,EUR
+44,spain,FTSE Latibex Brazil,11381.8,11381.8,11181.0,+194.60,+1.74%,EUR
+45,spain,FTSE Latibex Top Share,5094.6,5094.6,4986.7,+126.80,+2.55%,EUR
+46,spain,FTSE Spain,399.77,399.77,399.77,+2.48,+0.62%,EUR
+47,spain,FTSE4Good IBEX,9503.7,9525.6,9455.7,+68.30,+0.72%,EUR
+48,spain,IBEX 35 Capped NR,23154.9,23205.0,23018.8,+185.50,+0.81%,EUR
+49,spain,IBEX 35 Double Leverage GR,20113.8,20200.1,19879.2,+319.60,+1.61%,EUR
+50,spain,IBEX 35 Double Leverage Net Return,16719.5,16791.3,16524.5,+265.80,+1.62%,EUR
+51,spain,IBEX 35 Double Leveraged,4262.8,4281.1,4213.1,+67.70,+1.61%,EUR
+52,spain,IBEX 35 Double Short,230.4,233.2,229.4,-3.80,-1.62%,EUR
+53,spain,IBEX 35 Impact Dividend,189.7,189.7,189.7,+0.00,+0.00%,EUR
+54,spain,IBEX 35 Leverage X10,404.7,412.9,382.6,+30.20,+8.06%,EUR
+55,spain,IBEX 35 Net Leverage X3,7149.7,7195.4,7025.7,+169.10,+2.42%,EUR
+56,spain,IBEX 35 Net Leverage X5,408.5,412.7,396.8,+15.90,+4.05%,EUR
+57,spain,IBEX 35 Short,2146.9,2159.7,2142.2,-17.50,-0.81%,EUR
+58,spain,IBEX 35 Short X10,20.6,21.9,20.1,-1.80,-8.04%,EUR
+59,spain,IBEX 35 Triple Leverage,601.6,605.5,591.2,+14.20,+2.42%,EUR
+60,spain,IBEX 35 Triple Short,9226.1,9394.2,9164.3,-229.20,-2.42%,EUR
+61,spain,IBEX Capped,9466.6,9487.1,9411.0,+75.80,+0.81%,EUR
+62,spain,IBEX MAB 15,2000.6,2005.0,1974.8,0.00,0.00%,EUR
+63,spain,IBEX MAB All Share,1620.3,1621.9,1604.6,0.00,0.00%,EUR
+64,spain,IBEX NR,23091.7,23141.7,22956.0,+185.00,+0.81%,EUR
+65,spain,IBEX Top Dividend,2544.0,2560.5,2541.3,-4.90,-0.19%,EUR
+66,spain,IBEX Total Return,27596.5,27656.2,27434.3,+221.00,+0.81%,EUR
+67,spain,IBEX35 Target Volatility 10% Financed,132.9,133.1,132.5,+0.60,+0.45%,EUR
+68,spain,IBEX35 Target Volatility 10% Standard,183.2,183.4,182.5,+0.90,+0.49%,EUR
+69,spain,IBEX35 Target Volatility 12% Financed,136.3,136.5,135.7,+0.80,+0.59%,EUR
+70,spain,IBEX35 Target Volatility 12% Standard,190.4,190.7,189.6,+1.10,+0.58%,EUR
+71,spain,IBEX35 Target Volatility 15% Financed,143.0,143.3,142.3,+1.00,+0.70%,EUR
+72,spain,IBEX35 Target Volatility 15% Standard,196.5,196.9,195.5,+1.40,+0.72%,EUR
+73,spain,IBEX35 Target Volatility 18% Financed,137.8,138.1,136.9,+1.20,+0.88%,EUR
+74,spain,IBEX35 Target Volatility 18% Standard,196.5,196.9,195.2,+1.70,+0.87%,EUR
+75,spain,Spain 50,0.0,0.0,0.0,0.0,0.00%,EUR
+76,spain,Valencia General,1295.94,1299.99,1290.9,+9.00,+0.70%,EUR
