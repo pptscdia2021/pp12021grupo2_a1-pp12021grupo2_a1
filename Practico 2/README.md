@@ -9,11 +9,11 @@
   
 - Otras fuente de datos puede obtenerse a partir de [InvestPy](https://pypi.org/project/investpy/)
 
-Segundo Objetivo:
+## Segundo Objetivo:
 - Una vez tomados los datos de la bolsa, identificamos las 2 cotizaciones de mayor ganancia y de mayor perdida.
   
-Tercer Objetivo:
+## Tercer Objetivo:
 - Comparativa de precios de cotización entre los dos orígenes de datos. _Usamos como inicio el código en los Jupyter provistos_.
 
-Cuarto Objetivo: 
+## Cuarto Objetivo: 
 - Reporte de resultados.
