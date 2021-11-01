@@ -7,7 +7,6 @@
 - Raúl Lobo
 - Eleana Rinaudo
 
-____
 ## PRÁCTICOS:
 
 ### Primer Práctico:
@@ -16,8 +15,15 @@ Funciones:
 - Resta
 - Producto
 - División
+-
 ### Segundo Práctico:
 - Comprender el uso de WebScraping.
 - Comprender el uso de api usando YFinance.
 - Otras fuentes de datos.
 - Manipulación de archivos y tablas. 
+
+
+### Tercer Práctico:
+- Conexión a MySql desde Python
+- Conexión a MongoDB desde Python
+- Práctica en MySql & noSQL
