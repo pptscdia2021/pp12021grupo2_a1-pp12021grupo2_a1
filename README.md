@@ -15,12 +15,12 @@ Funciones:
 - Resta
 - Producto
 - División
--
+
 ### Segundo Práctico:
 - Comprender el uso de WebScraping.
 - Comprender el uso de api usando YFinance.
 - Otras fuentes de datos.
-- Manipulación de archivos y tablas. 
+- Manipulación de archivos y tablas.
 
 
 ### Tercer Práctico:
