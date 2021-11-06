@@ -27,3 +27,36 @@ Funciones:
 - Conexión a MySql desde Python
 - Conexión a MongoDB desde Python
 - Práctica en MySql & noSQL
+
+# Instalación
+
+## Instalar:
+- [mySQL](https://www.mysql.com/)
+- [MongoDB](https://www.mongodb.com/atlas/database)
+
+## Crear entorno virtual
+
+En la terminal, creamos el entorno virtual con la siguiente línea:
+
+```
+python3 -m venv jupyter
+```
+### Activación
+
+Para activar el entorno virtual, ejecutamos
+
+**Windows**
+
+```
+jupyter\Scripts\activate.bat
+```
+
+**Linux**
+```
+source jupyter/bin/activate
+```
+
+### Instalación de los paquetes necesarios:
+```
+python -m pip install -r requirements.txt
+```
