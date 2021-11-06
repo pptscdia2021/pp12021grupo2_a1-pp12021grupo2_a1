@@ -1,29 +1,69 @@
 # Grupo 2 | Aula 1
 
-## INTEGRANTES 
+## INTEGRANTES
 
 - María Gutiérrez
 - Brenda Hidalgo
 - Raúl Lobo
 - Eleana Rinaudo
 
-## PRÁCTICOS:
+## PRÁCTICOS
 
-### Primer Práctico:
+### Primer Práctico
+
 Funciones:
+
 - Suma
 - Resta
 - Producto
 - División
 
-### Segundo Práctico:
-- Comprender el uso de WebScraping.
-- Comprender el uso de api usando YFinance.
-- Otras fuentes de datos.
-- Manipulación de archivos y tablas.
+### Segundo Práctico
 
+- Comprender el uso de WebScraping
+- Comprender el uso de api usando YFinance
+- Otras fuentes de datos
+- Manipulación de archivos y tablas
 
-### Tercer Práctico:
+### Tercer Práctico
+
 - Conexión a MySql desde Python
 - Conexión a MongoDB desde Python
 - Práctica en MySql & noSQL
+
+---
+
+## Instalar
+
+- [mySQL](https://www.mysql.com/)
+- [MongoDB](https://www.mongodb.com/atlas/database)
+
+## Crear entorno virtual
+
+En la terminal, creamos el entorno virtual con la siguiente línea:
+
+```bash
+python3 -m venv jupyter
+```
+
+## Activación
+
+Para activar el entorno virtual, ejecutamos
+
+- **Windows**
+
+```bash
+jupyter\Scripts\activate.bat
+```
+
+- **Linux**
+
+```bash
+source jupyter/bin/activate
+```
+
+## Instalación de los paquetes necesarios
+
+```bash
+python -m pip install -r requirements.txt
+```
