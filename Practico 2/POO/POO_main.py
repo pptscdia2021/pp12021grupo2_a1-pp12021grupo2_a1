@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
   webscrap = ws(url, table)
   data = webscrap.toDF()
-  webscrap.maximos('Maximo', 3)
+  print(webscrap.maximos('Maximo', 3))
   webscrap.toCSV()
 
 
@@ -28,12 +28,12 @@ if __name__ == "__main__":
   data_yf = yf(tickers2.upper())
   data2 = data_yf.toDF()
   data_yf.toCSV()
-  data_yf.maximos('Maximo', 3)
+  print(data_yf.maximos('Maximo', 3))
 
   data_inv = inv(tickers2.replace('.mc', ''))
   data3 = data_inv.toDF()
   data_inv.toCSV()
-  data_inv.maximos('Maximo', 3)
+  print(data_inv.maximos('Maximo', 3))
 
   df_dict = {'Webscraping':data, 'yFinance':data2, 'InvestPy':data3}
   grafic = gf(df_dict)
