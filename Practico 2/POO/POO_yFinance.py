@@ -21,7 +21,7 @@ class yFinance:
     def to_DF(self):
       return self.tickers
 
-    def toCSV(self):
+    def to_CSV(self):
       return self.tickers.to_csv('yFinance.csv')
 
     def maximos(self, columna, cantidad):
