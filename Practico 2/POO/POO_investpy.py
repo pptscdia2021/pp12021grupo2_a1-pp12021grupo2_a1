@@ -23,7 +23,7 @@ class investPy:
     return self.df
 
   def toCSV(self):
-    return self.df.to_csv('investypy.csv')
+    return self.df.to_csv('Practico 2/POO/csv/investypy.csv')
 
   def maximos(self, columna, cantidad):
     '''Devuelve la cantidad de maximos indicado del DataFrame indicando la columna'''

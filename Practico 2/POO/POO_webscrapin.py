@@ -4,7 +4,7 @@ import numpy as np
 class webscraping:
     def __init__(self, url, table):
         self.url = url
-        self.path = 'DatosWebscraping.csv'
+        self.path = 'Practico 2/POO/csv/DatosWebscraping.csv'
         self.table_id = table
         self.df = pd.read_html(url, attrs=self.table_id, thousands='.', decimal=',', flavor=None)[0]
         self.df = self.df.drop(['Efectivo (miles €)', 'Hora'], axis=1)
