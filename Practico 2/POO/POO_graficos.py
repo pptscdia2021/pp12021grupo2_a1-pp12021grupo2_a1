@@ -7,8 +7,8 @@ class Graficos:
     ''''Recibe un atributo dict {name:dataFrame} para graficar'''
     self.df = df_dict
   
-  def dibujar(self):
-    fig, ax = plt.subplots(figsize=(10,10), nrows=len(self.df), ncols=2)
+  def dibujar(self, size=10):
+    fig, ax = plt.subplots(figsize=(size,size), nrows=len(self.df), ncols=2)
     r = 0
     c = 0
     colors_max = ['#34BE82', '#2F86A6', '#2FDD92']
@@ -18,22 +18,22 @@ class Graficos:
       c = 0
       color = 0
 
-      ax[r][c].set_title(key.upper() ,fontsize=12)
+      ax[r][c].set_title(key.upper() ,fontsize=(size*1.1))
 
       for i in df.index:
         ax[r][c].bar(df.Accion[i], df.Maximo[i], color=colors_max[color], label=df.Accion[i])
         ax[r][c].grid()
-        ax[r][c].set_ylabel('Maximos')
+        ax[r][c].set_ylabel('Maximos',fontsize=size)
         ax[r][c].legend()
         color+=1
 
       c+=1
-      ax[r][c].set_title(key.upper() ,fontsize=12)
+      ax[r][c].set_title(key.upper() ,fontsize=(size*1.1))
       color=0
       for i in df.index:
         ax[r][c].bar(df.Accion[i], df.Minimo[i], color=colors_min[color], label=df.Accion[i])
         ax[r][c].grid()
-        ax[r][c].set_ylabel('Minimos',fontsize=10)
+        ax[r][c].set_ylabel('Minimos',fontsize=size)
         ax[r][c].legend()
         color+=1
       r+=1
