@@ -14,10 +14,3 @@ if __name__ == "__main__":
   bolsaMadrid.toDF()
   yfinance.toDF()
   invpy.toDF()
-
-bolsaMadrid.toDF()
-
-yfinance.toDF()
-
-invpy = inv(tickers)
-invpy.toDF()
