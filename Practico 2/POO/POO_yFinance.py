@@ -18,10 +18,10 @@ class yFinance:
       self.tickers = self.tickers.drop(['Adj Close'], axis=1)
       self.tickers.columns = columnsName
 
-    def to_DF(self):
+    def toDF(self):
       return self.tickers
 
-    def to_CSV(self):
+    def toCSV(self):
       return self.tickers.to_csv('yFinance.csv')
 
     def maximos(self, columna, cantidad):
