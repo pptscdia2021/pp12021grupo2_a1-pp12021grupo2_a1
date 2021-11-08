@@ -3,11 +3,11 @@ import pandas as pd
 
 class Investpy:
   def __init__(self, stocks):
-     self.__country = 'spain'
-     self.__as_json= True
-     self.__order = 'ascending'
-     self.__interval = 'Daily'
-     self.__stocks = list(stocks.split())
+     self.country = 'spain'
+     self.as_json= True
+     self.order = 'ascending'
+     self.interval = 'Daily'
+     self.stocks = list(stocks.split())
 
      listatickers = list()
      for ticker in self.stocks:
