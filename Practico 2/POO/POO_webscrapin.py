@@ -2,14 +2,21 @@ import pandas as pd
 import numpy as np
 
 class webscraping:
-    def __init__(self, url, table):
+    def __init__(self, url, table, tickers):
         self.url = url
-        self.path = 'Practico 2/POO/csv/DatosWebscraping.csv'
+        self.path = 'DatosWebscraping.csv'
         self.table_id = table
+        self.tickers = tickers
         self.df = pd.read_html(url, attrs=self.table_id, thousands='.', decimal=',', flavor=None)[0]
         self.df = self.df.drop(['Efectivo (miles €)', 'Hora'], axis=1)
         columnsName = ["Accion", "Cierre", "Diferencia", "Maximo", "Minimo", "Volumen", "Fecha"]
         self.df.columns = columnsName
+        df_list = list()
+        for ticker in list(self.tickers.split()):
+          resultado = self.df.where(self.df.Accion == ticker)
+          resultado = resultado.dropna()
+          df_list.append(resultado)
+        self.df = pd.concat(df_list)
 
     def toCSV(self):
       '''Exporta datos en formato CSV.'''
