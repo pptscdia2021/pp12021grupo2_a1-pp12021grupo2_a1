@@ -11,7 +11,7 @@
 
 ### Primer Práctico
 
-Funciones:
+Funciones
 
 - Suma
 - Resta
