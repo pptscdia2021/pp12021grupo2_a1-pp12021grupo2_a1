@@ -1,7 +1,7 @@
 import investpy
 import pandas as pd
 
-class Investpy:
+class investPy:
   def __init__(self, stocks):
      self.country = 'spain'
      self.as_json= True
