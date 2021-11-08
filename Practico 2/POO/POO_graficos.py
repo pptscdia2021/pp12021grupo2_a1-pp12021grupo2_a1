@@ -8,6 +8,7 @@ class Graficos:
     self.df = df_dict
   
   def dibujar(self, size=10):
+    '''Devuelve los graficos recibiendo como atributo el tamaño de los mismos'''
     fig, ax = plt.subplots(figsize=(size,size), nrows=len(self.df), ncols=2)
     r = 0
     c = 0
