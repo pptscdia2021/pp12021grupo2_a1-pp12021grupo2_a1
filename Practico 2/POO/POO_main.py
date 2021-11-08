@@ -9,24 +9,27 @@ if __name__ == "__main__":
   table = {"id":"ctl00_Contenido_tblAcciones"}
   tickers = 'BBVA TELEFONICA B.SANTANDER'
 
-  webscrap = ws(url, table, tickers)
-  data = webscrap.toDF()
-  print(webscrap.maximos('Maximo', 3))
-  print(webscrap.minimos('Minimo', 3))
-  webscrap.toCSV()
-
   tickers2 = 'bbva.mc tef.mc san.mc'
   data_yf = yf(tickers2.upper())
   data2 = data_yf.toDF()
   data_yf.toCSV()
+  prin('----{0}----'.format('yFinance'))
   print(data_yf.maximos('Maximo', 3))
   print(data_yf.minimos('Minimo', 3))
 
   data_inv = inv(tickers2.replace('.mc', ''))
   data3 = data_inv.toDF()
   data_inv.toCSV()
+  prin('----{0}----'.format('InvestPy'))
   print(data_inv.maximos('Maximo', 3))
   print(data_inv.minimos('Minimo', 3))
+
+  webscrap = ws(url, table, tickers)
+  data = webscrap.toDF()
+  prin('----{0}----'.format('Webscrapin'))
+  print(webscrap.maximos('Maximo', 3))
+  print(webscrap.minimos('Minimo', 3))
+  webscrap.toCSV()
 
   df_dict = {'Webscraping':data, 'yFinance':data2, 'InvestPy':data3}
   grafic = gf(df_dict)
