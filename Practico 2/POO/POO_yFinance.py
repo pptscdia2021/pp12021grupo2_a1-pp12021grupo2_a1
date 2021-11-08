@@ -7,7 +7,7 @@ class yFinance:
       listatickers = list()
       for ticker in list(tickers.split()):
         data = yf.download(ticker, group_by="ticker", period='1d')
-        data['Ticker'] = ticker
+        data['Ticker'] = ticker.upper()
         listatickers.append(data)
       self.tickers = pd.concat(listatickers)
       column = self.tickers['Ticker']
@@ -18,7 +18,7 @@ class yFinance:
       self.tickers = self.tickers.drop(['Adj Close'], axis=1)
       self.tickers.columns = columnsName
 
-    def cotizaciones(self):
+    def to_DF(self):
       return self.tickers
 
     def toCSV(self):
