@@ -1,10 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-class yFinance:
-    '''def __init__(self,tickers):
-        self.tickers = [yf.download(ticker, group_by="ticker", period='1d') for ticker in list(tickers.split())]'''
-    
+class yFinance:    
     def __init__(self,tickers):
       self.tickers = pd.DataFrame()
       listatickers = list()
