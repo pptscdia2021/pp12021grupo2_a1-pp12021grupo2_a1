@@ -7,22 +7,12 @@ import pandas as pd
 if __name__ == "__main__":
   url = "https://www.bolsamadrid.es/esp/aspx/Mercados/Precios.aspx?indice=ESI100000000"
   table = {"id":"ctl00_Contenido_tblAcciones"}
-  bolsaMadrid = ws(url, table)
+  tickers = 'BBVA TELEFONICA B.SANTANDER'
 
-  webscrap = ws(url, table)
+  webscrap = ws(url, table, tickers)
   data = webscrap.toDF()
   print(webscrap.maximos('Maximo', 3))
   webscrap.toCSV()
-
-
-  tickers = 'BBVA TELEFONICA B.SANTANDER'
-  df_list = list()
-  for ticker in list(tickers.split()):
-    resultado = data.where(data.Accion == ticker)
-    resultado = resultado.dropna()
-    df_list.append(resultado)
-
-  data = pd.concat(df_list)
 
   tickers2 = 'bbva.mc tef.mc san.mc'
   data_yf = yf(tickers2.upper())
