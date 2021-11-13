@@ -22,7 +22,7 @@ class yFinance:
       return self.tickers
 
     def toCSV(self):
-      return self.tickers.to_csv('Practico 2/POO/csv/Finance.csv')
+      return self.tickers.to_csv('Finance.csv')
 
     def maximos(self, columna, cantidad):
         '''Devuelve la cantidad de maximos indicado del DataFrame indicando la columna'''
