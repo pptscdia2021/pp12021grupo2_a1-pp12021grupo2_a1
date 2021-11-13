@@ -4,7 +4,7 @@ import numpy as np
 class webscraping:
     def __init__(self, url, table, tickers):
         self.url = url
-        self.path = 'DatosWebscraping.csv'
+        self.path = 'pp12021grupo2_a1-pp12021grupo2_a1/Practico 2/POO/csv/DatosWebscraping.csv'
         self.table_id = table
         self.tickers = tickers
         self.df = pd.read_html(url, attrs=self.table_id, thousands='.', decimal=',', flavor=None)[0]
