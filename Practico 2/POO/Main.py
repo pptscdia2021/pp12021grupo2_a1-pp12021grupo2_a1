@@ -1,7 +1,8 @@
-import Api
-import Investpy, yFinance, Webscraping
-import pandas as pd
-import Graficos
+from Api import Api
+from Investpy import Investpy
+from yFinance import yFinance
+from Webscraping import Webscraping
+from Graficos import Graficos
 
 #Agregamos los datos
 url="https://www.bolsamadrid.es/esp/aspx/Mercados/Precios.aspx?indice=ESI100000000"

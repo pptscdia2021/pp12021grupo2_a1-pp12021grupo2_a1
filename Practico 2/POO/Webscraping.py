@@ -1,8 +1,7 @@
-import Api
+from Api import Api
 import pandas as pd
-import numpy as np
 
-class webscraping(Api):
+class Webscraping(Api):
 
     def __init__(self, url, table, tickers):
       '''Crear un dataframe con argumentos de una pagina web y su id de table'''
@@ -22,4 +21,4 @@ class webscraping(Api):
         resultado = resultado.dropna()
         df_list.append(resultado)
       df = pd.concat(df_list)
-      return df
+      return df.reset_index()
