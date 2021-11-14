@@ -25,5 +25,6 @@ for name, data in dict_data.items():
   print(data.maximos('Maximo', 1))
   print(data.minimos('Minimo', 1))
 
+#Generamos los graficos con los dataframes
 graficos = Graficos(dict_df)
 graficos.dibujar(10)
