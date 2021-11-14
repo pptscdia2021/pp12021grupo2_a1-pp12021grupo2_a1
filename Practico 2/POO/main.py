@@ -22,6 +22,7 @@ if __name__ == "__main__":
   #Ejecutamos los metodos de las instancias y creamos un diccionario con los dataframes
   dict_df = {}
   for name, data in dict_data.items():
+    data.toCSV(name)
     dict_df[name] = data.toDF()
     print('--- {0} ---'.format(name))
     print(data.maximos('Maximo', 1))
