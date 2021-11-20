@@ -40,10 +40,22 @@ Funciones
 
 ## Crear entorno virtual
 
-En la terminal, creamos el entorno virtual con la siguiente línea:
+En la terminal, instalamos `virtualenv` con las siguiente línea:
+
+**Debian o Ubuntu**
 
 ```bash
-python3 -m venv jupyter
+sudo apt-get install python3-pip
+```
+
+```bash
+sudo apt-get install python3-virtualenv
+```
+
+**Creación de los entornos virtuales**
+
+```bash
+virtualenv jupyter
 ```
 
 ## Activación
