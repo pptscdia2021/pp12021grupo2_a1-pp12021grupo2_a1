@@ -3,9 +3,10 @@ import pandas as pd
 class Api:
 
   def __init__(self, tickers):
-      self._path = 'Practico 2/POO/csv/{0}.csv'
-      self._tickers = list(tickers.split())
-      self._df = pd.DataFrame()
+    '''Crear dataframe con una cadena de tickers'''
+    self._path = 'Practico 2/POO/csv/{0}.csv'
+    self._tickers = list(tickers.split())
+    self._df = self._crearDF()
 
   def _crearDF(self):
     pass

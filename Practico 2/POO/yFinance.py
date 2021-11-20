@@ -2,13 +2,7 @@ from Api import Api
 import yfinance as yf
 import pandas as pd
 
-class yFinance(Api):
-
-  def __init__(self,tickers):
-    '''Crear dataframe usando API yfinance con una cadena de tickers'''
-    super().__init__(tickers)
-    self._df = self._crearDF()
-    
+class yFinance(Api):    
 
   def _crearDF(self):
     listatickers = list()
