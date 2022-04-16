@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 
 class Graficos:
+
   def __init__(self, df_dict):
     self.df = df_dict
     self.params = {'Maximos':{'df':'Maximo', 'colors':['#34BE82', '#2F86A6', '#2FDD92'], 'colum':0},
                     'Minimos':{'df':'Minimo', 'colors':['#FF0000', '#950101', '#3D0000'], 'colum':1}}
-
   
   def dibujar(self, size=10):
 
