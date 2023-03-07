@@ -5,7 +5,7 @@ class Api:
   def __init__(self, tickers):
     '''Crear dataframe con una cadena de tickers'''
     self._path = 'Practico 2/POO/csv/{0}.csv'
-    self._tickers = list(tickers.split())
+    self._tickers = tickers.split()
     self._df = self._crearDF()
 
   def _crearDF(self):
